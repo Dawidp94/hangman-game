@@ -1,0 +1,103 @@
+
+
+body{
+    background-color: #F5DEB3;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    user-select: none;
+}
+
+header{
+    width: 50%;
+    margin: auto;
+    
+}
+
+header .info{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#pojemnik{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#plansza{
+    width: 1200px;
+    margin: 100px 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    min-height: 100px;
+
+}
+
+#szubienica{
+    float: left;
+    width: 600px;
+    text-align: center;
+    min-height: 380px;
+    padding-right: 20px;
+}
+
+#alfabet{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+    padding-left: 20px;
+}
+
+.maly_pojemnik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+
+.litera{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid black;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.litera:hover{
+    background-color: black;
+    color: beige;
+    
+}
+
+.true{
+    background-color: rgba(41, 4, 4, 0.959);
+    color: black;
+    border-color: rgba(5, 39, 5, 0.883);
+    cursor: alias;
+}
+
+#reset{
+    color: #3A3222;
+    cursor: pointer;
+    border: 3px groove #3A3222;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#reset:hover{
+    background-color:#706249;
+    border-color: #3A3222;
+    color: beige;
+    
+}
